@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ready Meals</title>
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+</head>
+<body>
+
+    <div class="container-fluid m-0 p-0 text-center">
+        <div class="text-center bg-white p-5 w-full"></div>
+
+        <div class="container d-flex flex-column justify-content-between align-items-center">
+            <div class="w-75 p-3 text-center">
+                <h5>Fertiggericht erstellen</h5>
+                <div class="form my-4">
+                    <div class="row my-3 justify-content-between align-items-center">
+                        <div class="col w-full">
+                            <input type="file" name="file" id="file" class="inputfile" />
+                            <label for="file">
+                                <img src="asset/img/upload-icon.svg" width="12%">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row my-3 justify-content-between align-items-center">
+                        <div class="col">
+                            <input type="text" class="custom mt-2" placeholder="Titel">
+                        </div>
+                    </div>
+
+                    <div class="row my-3 justify-content-between align-items-center">
+                        <div class="col">
+                            <textarea name="description" class="w-100" id="" cols="30" rows="10" placeholder="Beschreibung"></textarea>
+                        </div>
+                    </div>
+                    <a href="addIngredients.html" class="btn create-btn w-100">Weiter</a>
+            </div>
+        </div>
+        </div>
+
+    <script src="./asset/js/script.js"></script>
+    <script src="./asset/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./asset/js/bootstrap.min.js"></script>
+    <script src="./asset/js/popper.min.js"></script>
+</body>
+</html>

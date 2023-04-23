@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="12.8" fill="#FBBB00"/>
+<path d="M30.3333 23.666L33.6667 28.666L30.3333 33.666H25.3333L22 28.666L25.3333 23.666H30.3333Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.6654 18.666L41.9987 23.666L38.6654 28.666H33.6654L30.332 23.666L33.6654 18.666H38.6654Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.668 38.666L42.0013 43.666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.332 18.666L25.332 23.666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.3333 33.666L22 36.9993" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.6654 38.666L30.332 41.9993" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.0013 28.666H18.668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42 33.666H47" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.6654 28.666L41.9987 33.666L38.6654 38.666H33.6654L30.332 33.666L33.6654 28.666H38.6654Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26.9987" cy="45.3327" r="1.66667" fill="white"/>
+<circle cx="18.6667" cy="40.3327" r="1.66667" fill="white"/>
+<circle cx="46.9987" cy="23.6667" r="1.66667" fill="white"/>
+</svg>

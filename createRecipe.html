@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Ingredients</title>
+    <title>Add nutritional value to foods</title>
     <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="./asset/css/all.min.css">
     <link rel="stylesheet" href="./asset/css/main.css">
@@ -12,30 +12,42 @@
 <body>
 
     <div class="container-fluid m-0 p-0 text-center">
-        <div class="text-center bg-white p-5 w-full"></div>
-
+        <div class="text-center bg-white p-5 w-full">
+            <img src="asset/img/logo.svg" alt="">
+        </div>
         <div class="container d-flex flex-column justify-content-between align-items-center">
             <div class="w-100 p-3 text-center">
-                <h5>Lebensmittel anlegen</h5>
+                <h5>Rezept erstellen</h5>
                 <div class="form">
                     <div class="row my-3 justify-content-between align-items-center">
-                        <div class="col">
-                            <input type="text" class="custom mt-2" placeholder="Titel">
-                        </div>
-                        <div class="col w-full">
+                        <div class="col-lg-6">
                             <input type="file" name="file" id="file" class="inputfile" />
                             <label for="file">
                                 <img src="asset/img/upload-icon.svg" width="12%">
                             </label>
                         </div>
-                    </div>
 
-                    <div class="row my-3 justify-content-between align-items-center">
-                        <div class="col">
-                            <input type="text" class="custom mt-2" placeholder="Einheit">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="custom mt-2" placeholder="Gewicht in Gramm">
+                        <div class="col-lg-6">
+                            <input type="text" class="custom mt-2" placeholder="Titel">
+
+                            <div class="form-group w-100">
+                                <label for="Nährwert"></label>
+                                <select class="form-control custom w-100" name="" id="">
+                                  <option>Oxidizer</option>
+                                  <option>other options</option>
+                                  <option>other options</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group w-100">
+                                <label for="Nährwert"></label>
+                                <select class="form-control custom w-100" name="" id="">
+                                  <option>Kategorie</option>
+                                  <option>other options</option>
+                                  <option>other options</option>
+                                </select>
+                            </div>
+
                         </div>
                     </div>
 
@@ -44,12 +56,15 @@
                             <textarea name="description" class="w-100" id="" cols="30" rows="10" placeholder="Beschreibung"></textarea>
                         </div>
                     </div>
-                    <a href="addNutritionToFood.html" class="btn create-btn w-100">Nährwerte zuweisen</a>
+                    <a href="addIngridientToRecipe.html" class="btn create-btn w-100">Zutaten hinzufügen</a>
             </div>
         </div>
         </div>
     </div>
 
+
+
+        
     <script src="./asset/js/script.js"></script>
     <script src="./asset/js/jquery-3.4.1.slim.min.js"></script>
     <script src="./asset/js/bootstrap.min.js"></script>

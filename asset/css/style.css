@@ -30,6 +30,16 @@ body{
     width: 100% !important;
 }
 
+.custom-tab{
+    background: #FFFFFF;
+    border-radius: 14px !important;
+    height: 4em !important;
+    /* max-height: 60px; */
+    border: none;
+    box-shadow: 0px 5.87805px 29.3902px rgba(0, 0, 0, 0.08);   
+    padding-left: 12px;
+}
+
 textarea{
     background: #FFFFFF;
     border-radius: 14px !important;

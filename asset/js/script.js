@@ -1,3 +1,22 @@
+const about = document.querySelector(".choice")
+const btn = document.querySelectorAll(".tab-btn")
+const article =document.querySelectorAll(".content")
+
+about.addEventListener('click', e => {
+    const id = e.target.dataset.id
+    if (id) {
+        btn.forEach(btn => {
+            btn.classList.remove("active")
+            e.target.classList.add("active")
+        })
+        article.forEach(article => {
+            article.classList.remove("active")
+        })
+        const element = document.getElementById(id)
+        element.classList.add("active")
+    }
+})
+
 
 const TABS = document.querySelectorAll(".tab .tab-navs .nav-item[data-tab]");
 const TAB_ITEM = document.querySelectorAll(".tab .tab-group .tab-item");

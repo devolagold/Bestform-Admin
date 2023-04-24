@@ -12,10 +12,159 @@
 <body>
 
     <div class="container-fluid m-0 p-0 text-center">
-        <div class="text-center bg-white p-5 w-full">
-            <img src="asset/img/logo.svg" alt="">
+        <div class="bg-white p-4 w-full">
+            <img src="asset/img/category-icon.svg" alt="" width="50px">
         </div>
 
+        <div class="d-flex">
+            <div class="side-bar">
+                <ul class="nav w-100">
+                    <li class="nav-item w-100">
+                        <a href="#" class="nav-link custom custom-link">
+                            Video
+                        </a>
+                    </li>
+
+                    <li class="nav-item w-100">
+                        <a href="#" class="nav-link custom custom-link">
+                            Lebensmittel
+                        </a>
+                    </li>
+
+                    <li class="nav-item w-100">
+                        <a href="#" class="nav-link custom custom-link">
+                            Fertiggerchte
+                        </a>
+                    </li>
+
+                    <li class="nav-item w-100">
+                        <a href="#" class="nav-link custom custom-link">
+                            Rezepte
+                        </a>
+                    </li>
+    
+                    <li class="nav-item w-100">
+                        <a href="#" class="nav-link active custom custom-link">
+                            Produkte
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content w-full">
+                <div class="d-flex w-full justify-content-between">
+
+                    <a href="#">
+                        <img src="/asset/img/icon-filter.svg" alt="Icon">
+                    </a>
+
+                    <div class="custom-tab w-50 mx-4 d-flex align-items-center justify-content-center">
+                        Produkt
+                    </div>
+
+                    <a type="button" class="w-full p-0" data-toggle="modal" data-target="#modelId">
+                        <img src="/asset/img/black-close-icon.svg" alt="Icon">
+                    </a>
+                    
+                    <!-- Nutition Modal -->
+                    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body p-4">
+                                    <h5 class="modal-title flex-grow-1 text-center">Bestellung hochladen</h5>
+                                    <div class="form my-4">
+                                        <div class="row my-3 justify-content-between align-items-center">
+                                            <div class="col w-full">
+                                                <input type="file" name="file" id="file" class="inputfile" />
+                                                <label for="file">
+                                                    <img src="asset/img/upload-icon.svg" width="12%">
+                                                </label>
+                                            </div>
+                                        </div>
+                    
+                                        <div class="row my-3 justify-content-between align-items-center">
+                                            <div class="col">
+                                                <input type="text" class="custom mt-2" placeholder="Titel">
+                                            </div>
+                                        </div>
+                    
+                                        <div class="row my-3 justify-content-between align-items-center">
+                                            <div class="col">
+                                                <textarea name="description" class="w-100" id="" cols="30" rows="6" placeholder="Beschreibung"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="row my-3 justify-content-between align-items-center">
+                                            <div class="col form-group w-100">
+                                                <select class="form-control custom w-100" name="" id="">
+                                                <option>Kategorie</option>
+                                                <option>other options</option>
+                                                <option>other options</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row my-3 justify-content-between align-items-center">
+                                            <div class="col">
+                                                <input type="text" class="custom mt-2" placeholder="Preis in €">
+                                            </div>
+                                        </div>
+
+                                        <a href="addIngredients.html" class="btn create-btn w-100">Weiter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="foods py-4">
+                    <div class="row m-0">
+                        <div class="col">
+                            <div class="card text-left">
+                                <div class="card-body row">
+                                    <div class="col-6">
+                                        <img class="" src="asset/img/image-placeholder.svg" alt="" width="">
+                                    </div>
+                                    <div class="col-6 card-details h-100 d-flex flex-column justify-content-between pl-2">
+                                        <div class="d-flex my-4 justify-content-between align-items-center">
+                                            <h5 class="card-title">Tesla</h5>
+                                            <a href="#"><img src="/asset/img/trash-icon.svg"></a>
+                                        </div>
+                                        <div class="icons d-flex my-4 justify-content-between align-items-center">
+                                            <a href="#"><img src="/asset/img/edit-icon.svg"></a>
+                                            <p>30 €</p>
+                                        </div>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-left">
+                                <div class="card-body row">
+                                    <div class="col-6">
+                                        <img class="" src="asset/img/image-placeholder.svg" alt="" width="">
+                                    </div>
+                                    <div class="col-6 card-details h-100 d-flex flex-column justify-content-between pl-2">
+                                        <div class="d-flex my-4 justify-content-between align-items-center">
+                                            <h5 class="card-title">Tesla</h5>
+                                            <a href="#"><img src="/asset/img/trash-icon.svg"></a>
+                                        </div>
+                                        <div class="icons d-flex my-4 justify-content-between align-items-center">
+                                            <a href="#"><img src="/asset/img/edit-icon.svg"></a>
+                                            <p>30 €</p>
+                                        </div>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     

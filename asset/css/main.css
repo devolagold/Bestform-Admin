@@ -55,3 +55,44 @@
 .rounded-lg{
     border-radius: 16px;
 }
+
+.modal-content{
+    padding: 10px;
+    height: auto;
+    max-height: 1000px;
+}
+
+.btn-container{
+    padding: 12px;
+    background: #EFF3F8;
+    width: fit-content;
+    border-radius: 16px;
+}
+
+.tab-btn{
+    background: none;
+    border: none;
+    padding: 14px 44px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #838D95;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.tab-btn:focus{
+    outline: none;
+}
+
+.tab-btn.active {
+    background: #FFFFFF;
+    color: #94C43A;
+}
+
+.content.active {
+    display: block;
+}
+
+.content {
+    display: none;
+}
